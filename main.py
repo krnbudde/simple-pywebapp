@@ -10,6 +10,9 @@ messages_list: dict[int, MsgPayload] = {}
 def root() -> dict[str, str]:
     return {"message": "Hello From FastAPI App!"}
 
+@app.get("/health")
+def root() -> dict[str, str]:
+    return {"message": "Healthy From FastAPI App!"}
 
 # About page route
 @app.get("/about")

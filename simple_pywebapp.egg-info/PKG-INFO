@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: simple-pywebapp
+Version: 0.1.0
+Summary: A simple FastAPI application
+Author: kiran
+Requires-Python: >=3.7
+Requires-Dist: fastapi
+Requires-Dist: mangum
+Requires-Dist: pydantic
+Requires-Dist: httpx
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Dynamic: author
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

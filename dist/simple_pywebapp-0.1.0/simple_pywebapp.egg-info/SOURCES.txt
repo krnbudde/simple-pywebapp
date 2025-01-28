@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_pywebapp.egg-info/PKG-INFO
+simple_pywebapp.egg-info/SOURCES.txt
+simple_pywebapp.egg-info/dependency_links.txt
+simple_pywebapp.egg-info/requires.txt
+simple_pywebapp.egg-info/top_level.txt
+tests/test_main.py
