@@ -1,7 +1,0 @@
-fastapi
-mangum
-pydantic
-httpx
-
-[dev]
-pytest
