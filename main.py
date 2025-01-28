@@ -1,6 +1,6 @@
-from fastapi import FastAPI
+from target.fastapi import FastAPI
 from models import MsgPayload
-from mangum import Mangum
+from target.mangum import Mangum
 
 app = FastAPI()
 messages_list: dict[int, MsgPayload] = {}
