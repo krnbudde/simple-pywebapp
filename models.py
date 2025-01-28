@@ -1,5 +1,5 @@
 from typing import Optional
-from target.pydantic import BaseModel
+from pydantic import BaseModel
 
 
 class MsgPayload(BaseModel):
